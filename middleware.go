@@ -18,8 +18,8 @@ package transport
 
 import (
 	"bytes"
+	"github.com/deepauto-io/log"
 	ua "github.com/mileusna/useragent"
-	"github.com/workpieces/log"
 	"io"
 	"net/http"
 	"time"

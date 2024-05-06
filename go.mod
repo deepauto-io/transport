@@ -4,8 +4,8 @@ go 1.21.5
 
 require (
 	github.com/deepauto-io/errors v0.0.0-20240114032918-ba72d0bb7615
+	github.com/deepauto-io/log v0.0.0-20240407024108-efdd7b7178cf
 	github.com/mileusna/useragent v1.3.4
-	github.com/workpieces/log v0.0.0-20230331052800-717da148c7ce
 )
 
 require (
