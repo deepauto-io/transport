@@ -227,10 +227,6 @@ func (a *API) Err(w http.ResponseWriter, r *http.Request, err error) {
 		return
 	}
 
-	a.logger.
-		WithField("transport", "api").
-		Error(err)
-
 	v, status, err := a.errFn(r.Context(), err)
 	if err != nil {
 		a.logger.Error("failed to write err to response writer", err)
